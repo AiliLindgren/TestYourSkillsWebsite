@@ -123,3 +123,40 @@ nav {
     }
 }
 
+@media screen and (max-width: 1350px) {
+    .header-content-container {
+        .search-form {
+            .search-field::placeholder {
+                font-size: 10px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}
+
+// @media screen and (max-width: 1000px) {
+//     .search-form {
+//         .search-field {
+//             // width: 250px;
+//             grid-column-start: 1.5;
+//         }
+//     }
+// }
+
+@media screen and (max-width: 600px) {
+    .nav {
+        overflow: hidden;
+        background-color: #5474FD;
+        a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;            
+        }            
+    }
+}
+
+
