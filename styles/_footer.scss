@@ -47,4 +47,10 @@ footer {
     .fa-linkedin-in {
         color: #5474FD;
     }
+
+    a:hover {
+        transform: scale(2);
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
 }

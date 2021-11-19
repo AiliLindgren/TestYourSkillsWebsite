@@ -51,6 +51,11 @@
         background-color: #5474FD;
         grid-row: 8 / 9;
         justify-content: center;
+        &:hover {
+            background-color: rgb(3, 3, 105);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
     }
 
     .cottage {

@@ -68,5 +68,10 @@
         margin-left: 30px;
         background-color: #5474FD;
         justify-content: center;
+        &:hover {
+            background-color: rgb(3, 3, 105);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
     }
 }

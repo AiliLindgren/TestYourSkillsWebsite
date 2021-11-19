@@ -53,10 +53,13 @@ header {
     .search-btn {
         width: 150px;
         height: 63px;
-        // display: flex;
-        // align-items: center;
-        // justify-content: flex-end;
         @include fonts.search-btn;
+        &:hover {
+            background-color: rgb(3, 3, 105);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
         &__txt {
             transform: translateX(40%);
         }
@@ -72,7 +75,17 @@ header {
     a {
         @include fonts.scroll;
         text-decoration: none;
-    }
+        &:hover {
+            color: rgb(3, 3, 105);
+            transition: 0.3s ease-in-out;
+        }
+    }    
+
+    // .arrow-down:hover {
+    //     fill: rgb(3, 3, 105);
+    //     transition: 0.3s ease-in-out;
+    //     cursor: pointer;
+    // }
 }
 
 nav {
@@ -85,6 +98,11 @@ nav {
     align-self: end;
     .container-logo-nav {
         @include fonts.logo-nav;
+        .logo-nav:hover {
+            color: rgb(3, 3, 105);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
     }
     
     .nav {  
@@ -96,7 +114,12 @@ nav {
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-        }             
+        } 
+        
+        a:hover {
+            color: rgb(3, 3, 105);
+            transition: 0.3s ease-in-out;
+        }
     }
 }
 
