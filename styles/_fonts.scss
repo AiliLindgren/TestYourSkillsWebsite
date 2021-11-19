@@ -132,7 +132,7 @@ $font-josefin: 'Josefin Sans', sans-serif;
     align-items: center;
     color: #E8E8E8;
 
-    // Minus letter-spacing: 1.6px; - which is to be applied on the Why choose us-text section 2
+    // Minus letter-spacing: 1.6px; - which is to be applied on the Why choose us-text
 }
 
 @mixin explore-book-btn {
@@ -162,19 +162,6 @@ $font-josefin: 'Josefin Sans', sans-serif;
     color: #E8E8E8;
 }
 
-@mixin h4 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    /* identical to box height, or 130% */
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
 // Spain
 @mixin h5 {
     font-family: 'Josefin Sans', sans-serif;
@@ -188,6 +175,20 @@ $font-josefin: 'Josefin Sans', sans-serif;
     letter-spacing: 1.5px;
     color: #E8E8E8;
 }
+
+@mixin h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 
 @mixin tourist-quote {
     font-family: 'Josefin Sans', sans-serif;
