@@ -66,16 +66,40 @@ header {
     }
 }    
 
-    .container-scroll {
-        // justify-self: flex-end;
-        grid-row-start: 3;
-        grid-column: 2 / 3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        a {
-            @include fonts.scroll;
-            text-decoration: none;
-        }
+.container-scroll {
+    grid-row-start: 3;
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+        @include fonts.scroll;
+        text-decoration: none;
     }
+}
+
+nav {
+    height: 80px;
+    background-color: #5474FD;
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    align-self: end;
+    .container-logo-nav {
+        @include fonts.logo-nav;
+    }
+    
+    .nav {  
+        display: flex;
+        align-self: center; 
+        a {
+            @include fonts.nav;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }             
+    }
+}
 
