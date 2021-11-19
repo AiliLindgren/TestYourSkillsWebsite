@@ -5,10 +5,7 @@ header {
     width: inherit;
     min-height: 810px;
     background-image: url(/images/backgr-header.png);
-    background-repeat: no-repeat;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
+    background-repeat: no-repeat;    
     display: grid;
     grid-template-rows: repeat(3, minmax(10px, 1fr));
     grid-template-columns: repeat(3, minmax(10px, 1fr));
