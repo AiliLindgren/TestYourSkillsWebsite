@@ -1,0 +1,13 @@
+@use 'fonts';
+
+@import 'header';
+
+body {
+    background-color: black;
+    max-width: 1770px;
+    width: 100%;
+    margin: auto;
+    border-top: 15px solid #FFFFFF;
+    border-left: 15px solid #FFFFFF;
+    border-right: 15px solid #FFFFFF;
+}

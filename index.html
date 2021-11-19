@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/752a9cce20.js" crossorigin="anonymous"></script>
     <title>BHROMAON</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
+    <header>
+        <div class="header-content-container">
+            <!-- <div class="container-logo-and-form"> -->
+                <div class="container-logo-main">
+                    <h1 class="logo-main">Bhromaon</h1>
+                    <p class="below-logo">Safe Travel Anywhere</p>
+                </div>
+
+                <form class="search-form" action="">
+                    <!-- <label for="search"></label> -->
+                    <input class="search-field" type="search" id="search" name="search" placeholder="Search Your Travel Destination">
+                    <button class="search-btn">
+                        <p class="search-btn__txt">Search</p>
+                        <svg>
+                            <use href="images/search-icon.svg#search-icon"></use>
+                        </svg>
+                    </button>
+                </form>
+            <!-- </div> -->
+        </div>
+            
+            <div class="container-scroll">
+                <a href="#">Scroll Down</a>
+                <!-- <img src="/images/arrow-down.svg" alt=""> -->
+                <svg>
+                    <use href="/images/arrow-down.svg#arrow-down"></use>
+                </svg>
+            </div>
+
+        <nav>
+            <div class="container-logo-nav">
+                <p class="logo-nav">Bhromaon</p>
+            </div>
+
+            <ul class="nav" id="nav-bar">
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Travel With Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
     
 </body>
 </html>

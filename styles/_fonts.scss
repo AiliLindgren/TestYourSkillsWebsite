@@ -1,0 +1,202 @@
+$font-aleo: 'Aleo', serif;
+$font-josefin: 'Josefin Sans', sans-serif;
+
+@mixin logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 26px;
+    /* identical to box height, or 54% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    // Mind letter spacing and font-size on logo in footer
+}
+
+@mixin below-logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height, or 118% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+
+    // Mind letter spacing and font-size on below logo in footer
+}
+
+@mixin placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+
+@mixin search-btn {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+@mixin scroll {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+}
+
+@mixin logo-nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin nav {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin h3-why-what {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 72% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    // Minus text-align: center; - which is to be applied on the h3 in the bottom
+}
+
+@mixin txt {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    color: #E8E8E8;
+
+    // Minus letter-spacing: 1.6px; - which is to be applied on the Why choose us-text section 2
+}
+
+@mixin explore-book-btn {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin search-select-book {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 72% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8E8E8;
+}
+
+@mixin h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+// Spain
+@mixin h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+
+@mixin tourist-quote {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    /* or 72% */
+    display: flex;
+    align-items: center;
+    color: #5474FD;
+}
