@@ -1,0 +1,50 @@
+@use 'fonts';
+
+footer {
+    width: inherit;
+    min-height: 271px;
+    background-color: #232323;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(10px, 1fr));
+}
+
+.container-logo-footer {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    align-self: start;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo-footer {
+        @include fonts.logo-nav;
+        letter-spacing: 3.36px;
+    }
+
+    .below-logo {
+        @include fonts.below-logo-footer;
+        margin-top: 0.6em;
+    }
+}
+
+.container-social-media {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    align-self: center;
+    justify-self: center;
+    max-width: 166px;
+    width: 100%;
+    min-height: 16px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #E8E8E8;
+    .fa-linkedin-in {
+        color: #5474FD;
+    }
+}

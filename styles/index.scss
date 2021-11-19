@@ -6,13 +6,12 @@
 @import 'section-2';
 @import 'section-3';
 @import 'section-4';
+@import 'footer';
 
 body {
     background-color: black;
     max-width: 1770px;
     width: 100%;
-    margin: auto;
-    border-top: 15px solid #FFFFFF;
-    border-left: 15px solid #FFFFFF;
-    border-right: 15px solid #FFFFFF;
+    margin: auto;   
+    border: 15px solid #FFFFFF;
 }
